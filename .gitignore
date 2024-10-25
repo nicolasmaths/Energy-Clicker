@@ -4,7 +4,6 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]serSettings/
 *.pidb
 *.suo
 *.user
@@ -14,3 +13,10 @@
 *.sln
 *.apk
 *.vcxproj
+
+# Ne PAS ignorer ProjectSettings et Packages
+# UserSettings est facultatif (ignore les préférences spécifiques à un utilisateur)
+[Uu]serSettings/
+
+# Ignorer les fichiers générés localement, sauf ceux nécessaires
+*.meta
